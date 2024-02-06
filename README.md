@@ -47,6 +47,7 @@ Tag is a command line tool, meaning that you have to type all the commands from
 Command Prompt in Windows. If you are not familiar with Command Prompt you should
 take a look at the great Frontend made by Speek.
 You can download the Frontend from http://home.wanadoo.nl/~w.speek/tag.htm.
+(https://web.archive.org/web/20090214213152/http://home.wanadoo.nl/~w.speek/tag.htm)
 
 To use tag from command line type:
 
