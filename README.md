@@ -31,6 +31,8 @@ Main features:
 
 Tag is released as freeware. Use at your own risk.
 Copyright (c) 2002-2003 Case, case@mobiili.net, http://www.ca5e.tk/
+(https://hydrogenaud.io/index.php?action=profile;u=322)
+
 ID3v2 support with id3lib, http://id3lib.sourceforge.net/
 --------------------------------------------------------------------------------
 
