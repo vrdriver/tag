@@ -1,0 +1,145 @@
+# Microsoft Developer Studio Generated Dependency File, included by Tag.mak
+
+.\find.c : \
+	".\find.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\guess.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\guess.h"\
+	".\misc.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\misc.c : \
+	".\misc.h"\
+	".\Tag.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\mp3.c : \
+	".\mp3.h"\
+	".\Tag.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\mpc.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\misc.h"\
+	".\mpc.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ogg.c : \
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\ogg.h"\
+	".\Tag.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Tag.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\find.h"\
+	".\guess.h"\
+	".\misc.h"\
+	".\mp3.h"\
+	".\mpc.h"\
+	".\ogg.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\tagread.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\misc.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\tags.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\guess.h"\
+	".\misc.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\tagwrite.c : \
+	"..\..\id3lib-3.8.0pre2.1\include\id3.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\globals.h"\
+	"..\..\id3lib-3.8.0pre2.1\include\id3\sized_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\vorbisfile.h"\
+	".\misc.h"\
+	".\Tag.h"\
+	".\tagread.h"\
+	".\tags.h"\
+	".\tagwrite.h"\
+	".\vcedit.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\vcedit.c : \
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\ogg.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\ogg\os_types.h"\
+	"..\..\vorbis-sdk-1.0rc3\include\vorbis\codec.h"\
+	".\vcedit.h"\
+	
