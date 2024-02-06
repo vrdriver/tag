@@ -35,11 +35,33 @@ Copyright (c) 2002-2003 Case, case@mobiili.net, http://www.ca5e.tk/
 Case's profile: https://hydrogenaud.io/index.php?action=profile;u=322
 Other original text help: https://hydrogenaud.io/index.php/topic,1432.0.html
 
-Program is written in C.
-# The Makefiles suggest Microsoft Developer Studio Generated Build File, Format Version 6.00
-
 ID3v2 support with id3lib, http://id3lib.sourceforge.net/
 --------------------------------------------------------------------------------
+
+
+Build Updates
+--------------------------------------------------------------------------------
+
+Program is written in VS C.
+The Makefiles suggest Microsoft Developer Studio Generated Build File, Format Version 6.00
+You'll have to follow up with the following upgrade path (at this stage)
+https://stackoverflow.com/a/29674895/1190051
+
+The the solution/VS version matrix is:
+
+    VS 6.0 -> 6.0
+    VS 2002 -> 7.0
+    VS 2003 -> 8.0
+    VS 2005 -> 9.0
+    VS 2008 -> 10.0
+    VS 2010 -> 11.0
+    VS 2012 -> 12.0
+    VS 2013 -> 10.0 to 12.0
+    VS 2015 -> 10.0 to 14.0
+    VS 2017 -> 10.0 to 15.0
+    VS 2019 -> 10.0 to 16.0
+
+In the Mak file, there's also several lot of dependencies. 
 
 
 Installation:
