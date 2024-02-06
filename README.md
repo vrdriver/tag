@@ -349,88 +349,87 @@ To remove all tags use command:
 and to remove only ID3v2 tags:
 
   Tag --removeid3v2 <files>
-
-
+  
 All options:
 ------------
- --title   <value> : set title to <value>
- --artist  <value> : set artist to <value>
- --album   <value> : set album to <value>
- --year    <value> : set year to <value>
- --comment <value> : set comment to <value>
- --track   <value> : set track number to <value>
- --genre   <value> : set genre to <value>
+ --title   &lt;value&gt; : set title to &lt;value&gt;  
+ --artist  &lt;value&gt; : set artist to &lt;value&gt;  
+ --album   &lt;value&gt; : set album to &lt;value&gt;  
+ --year    &lt;value&gt; : set year to &lt;value&gt;  
+ --comment &lt;value&gt; : set comment to &lt;value&gt;  
+ --track   &lt;value&gt; : set track number to &lt;value&gt;  
+ --genre   &lt;value&gt; : set genre to &lt;value&gt;  
 
-Tag fields can also be set with:
- -t <item=x>       : set tag item <item> to value <x>
- -u <item=x>       : set tag item <item> to value <x> (x is UTF-8 coded)
+Tag fields can also be set with:  
+ -t &lt;item=x&gt;       : set tag item &lt;item&gt; to value &lt;x&gt;  
+ -u &lt;item=x&gt;       : set tag item &lt;item&gt; to value &lt;x&gt; (x is UTF-8 coded)  
 
- --help            : show full help
- --hideinfo        : don't display file information
- --hidetags        : don't display tags
- --hidenames       : don't display filenames
- --simple          : use simple tag display format
- --recursive       : search files recursively in all subdirectories
- --fromfile <file> : copy tag information from <file>
- --allow <item=x>  : allow access to files with specified properties only
- --auto            : generate tags from filenames
- --scheme <scheme> : specify file structure scheme (ie. L/A - N - T)
- --autoscheme      : select automatically best scheme from list of schemes
- --nomagic         : use plain schemes, disable extra automations
- --chreplace       : use character replacing when tagging
- --rentag          : rename files to match scheme, filename from tag data
- --rename <scheme> : rename files to <scheme>, filename generated from old name
- --move            : when renaming move files to subdirectories
- --overwrite       : overwrite existing files when renaming
- --trackinc        : use incremental track numbering
- --caps            : capitalize words
- --Caps            : capitalize only first word
- --lower           : convert all characters to lower case
- --upper           : convert all characters to upper case
- --tcaps <item>    : capitalize words in tag field <item>
- --tCaps <item>    : capitalize only first word in tag field <item>
- --tlower <item>   : convert all characters to lower case in tag field <item>
- --tupper <item>   : convert all characters to upper case in tag field <item>
- --nozero          : ignore leading zeros on track numbers
- --zeropad         : add trailing zero to track number if missing
- --commafix        : fix comma separated artist field (x, the -> the x)
- --spacefix        : replaces underscore (_) and %20 with space
- --itemfix         : fix item names in APE v1.0/2.0 tags
- --umlfix          : fix umlauts (ae -> �, oe -> �, ue -> �)
- --swapta          : swap title <--> artist
- --remove          : remove all tags
- --removeid3v2     : remove only ID3v2 tags
- --removeid3v2u    : remove only unnecessary ID3v2 tags (fields fit in ID3v1)
- --playlist        : generate one playlist per directory
- --oneplaylist     : generate one playlist from all files
- --playlists       : generate one playlist per album in current directory
- --a-artist <x>    : set album artist to <x>
- --a-title <x>     : set album title to <x>
- --onlyfiles       : writes only filenames in playlist, no extra information
- --dirname         : use directory name for playlist naming
- --plname <name>   : use <name> as playlist name.
- --slashes         : use slashes '/' instead of backslashes '\' in playlists
- --nospaces        : replaces space by underscore in names of written files
- --sort <by>       : sort playlist only by <x>
- --sort+ <x>       : add new playlist sorting property <x>
- --sortdesc        : sort in descending order
- --newdate         : don't keep files original date/time
- --oldtype         : use old tag format
- --ape2            : default to APE v2.0 with MPC
- --force <tag>     : force use of selected tag type
- --extid3          : extend over long title field into comment field with id3
- --nocheck         : don't check file extension
- --test            : test mode, no files will be modified
- --tofile <scheme> : save screen output to file, name generated from <scheme>
- --tofileext <ext> : use extension <ext> instead of .txt
- --tofilen <name>  : save screen output to file <name>
- --nfo <file>      : generate .nfo file and save to <file>
- --listdefaults    : view default settings
- --listexceptions  : view list of exceptions in capitalize function
- --listgenres      : view list of possible ID3v1 tag genres
- --listpresets     : view list of defined presets
- --decode          : use external decoder and use <scheme> to name output
- --<number>        : use predefined preset <number>
+ --help            : show full help  
+ --hideinfo        : don't display file information  
+ --hidetags        : don't display tags  
+ --hidenames       : don't display filenames  
+ --simple          : use simple tag display format  
+ --recursive       : search files recursively in all subdirectories  
+ --fromfile &lt;file&gt; : copy tag information from &lt;file&gt;  
+ --allow &lt;item=x&gt;  : allow access to files with specified properties only  
+ --auto            : generate tags from filenames  
+ --scheme &lt;scheme&gt; : specify file structure scheme (i.e., L/A - N - T)  
+ --autoscheme      : select automatically best scheme from the list of schemes  
+ --nomagic         : use plain schemes, disable extra automations  
+ --chreplace       : use character replacing when tagging  
+ --rentag          : rename files to match scheme, filename from tag data  
+ --rename &lt;scheme&gt; : rename files to &lt;scheme&gt;, filename generated from the old name  
+ --move            : when renaming move files to subdirectories  
+ --overwrite       : overwrite existing files when renaming  
+ --trackinc        : use incremental track numbering  
+ --caps            : capitalize words  
+ --Caps            : capitalize only the first word  
+ --lower           : convert all characters to lower case  
+ --upper           : convert all characters to upper case  
+ --tcaps &lt;item&gt;    : capitalize words in tag field &lt;item&gt;  
+ --tCaps &lt;item&gt;    : capitalize only the first word in tag field &lt;item&gt;  
+ --tlower &lt;item&gt;   : convert all characters to lower case in tag field &lt;item&gt;  
+ --tupper &lt;item&gt;   : convert all characters to upper case in tag field &lt;item&gt;  
+ --nozero          : ignore leading zeros on track numbers  
+ --zeropad         : add a trailing zero to the track number if missing  
+ --commafix        : fix comma-separated artist field (x, the -> the x)  
+ --spacefix        : replace underscore (_) and %20 with a space  
+ --itemfix         : fix item names in APE v1.0/2.0 tags  
+ --umlfix          : fix umlauts (ae -> ä, oe -> ö, ue -> ü)  
+ --swapta          : swap title &lt;--> artist  
+ --remove          : remove all tags  
+ --removeid3v2     : remove only ID3v2 tags  
+ --removeid3v2u    : remove only unnecessary ID3v2 tags (fields fit in ID3v1)  
+ --playlist        : generate one playlist per directory  
+ --oneplaylist     : generate one playlist from all files  
+ --playlists       : generate one playlist per album in the current directory  
+ --a-artist &lt;x&gt;    : set album artist to &lt;x&gt;  
+ --a-title &lt;x&gt;     : set album title to &lt;x&gt;  
+ --onlyfiles       : writes only filenames in the playlist, no extra information  
+ --dirname         : use directory name for playlist naming  
+ --plname &lt;name&gt;   : use &lt;name&gt; as playlist name.  
+ --slashes         : use slashes '/' instead of backslashes '\' in playlists  
+ --nospaces        : replace space by underscore in names of written files  
+ --sort &lt;by&gt;       : sort playlist only by &lt;by&gt;  
+ --sort+ &lt;x&gt;       : add a new playlist sorting property &lt;x&gt;  
+ --sortdesc        : sort in descending order  
+ --newdate         : don't keep files' original date/time  
+ --oldtype         : use old tag format  
+ --ape2            : default to APE v2.0 with MPC  
+ --force &lt;tag&gt;     : force use of selected tag type  
+ --extid3          : extend over the long title field into the comment field with id3  
+ --nocheck         : don't check file extension  
+ --test            : test mode, no files will be modified  
+ --tofile &lt;scheme&gt; : save screen output to file, name generated from &lt;scheme&gt;  
+ --tofileext &lt;ext&gt; : use extension &lt;ext&gt; instead of .txt  
+ --tofilen &lt;name&gt;  : save screen output to file &lt;name&gt;  
+ --nfo &lt;file&gt;      : generate .nfo file and save to &lt;file&gt;  
+ --listdefaults    : view default settings  
+ --listexceptions  : view a list of exceptions in the capitalize function  
+ --listgenres      : view a list of possible ID3v1 tag genres  
+ --listpresets     : view a list of defined presets  
+ --decode          : use an external decoder and use &lt;scheme&gt; to name output  
+ --&lt;number&gt;        : use a predefined preset &lt;number&gt;  
 
 
 
