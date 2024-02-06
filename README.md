@@ -36,6 +36,7 @@ Case's profile: https://hydrogenaud.io/index.php?action=profile;u=322
 Other original text help: https://hydrogenaud.io/index.php/topic,1432.0.html
 
 Program is written in C.
+# The Makefiles suggest Microsoft Developer Studio Generated Build File, Format Version 6.00
 
 ID3v2 support with id3lib, http://id3lib.sourceforge.net/
 --------------------------------------------------------------------------------
