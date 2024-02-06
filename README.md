@@ -1,5 +1,6 @@
-This has been added to Github incase it goes the way of the dodo.
-You can probably find it here too (which is where it was sourced from): https://www.rarewares.org/others.php
+This has been added to Github incase it goes the way of the dodo. The last official update was back in 2003.
+
+You can find the download here too (which is where it was sourced from): https://www.rarewares.org/others.php
 
 Tag - Automatic Tag from filename
 =================================
